@@ -84,7 +84,7 @@ Para testar o boleto é necessário testar também o código de barras gerado. Para 
 
 ### Criando a view do boleto
 
-Em <code>library/BoletoPHP/views/</code> ficam armazenadas as views dos boletos. Para criar a mesma copie sua equivalente do <code>v1.0/layout\_meu\_boleto.php</code> para a pasta <code>library/BoletoPHP/views/**MeuBoleto.php**</code>, e altere as variaveis para exibir de acordo com as geradas pelo boleto.
+Em <code>library/BoletoPHP/views/</code> ficam armazenadas as views dos boletos. Para criar a mesma copie sua equivalente do <code>v1.0/include/layout\_meu\_boleto.php</code> para a pasta <code>library/BoletoPHP/views/**MeuBoleto.php**</code>, e altere as variaveis para exibir de acordo com as geradas pelo boleto.
 
 Mesmo sabendo que é repetido, depois poderemos refatorar para apenas uma view se for possivel. No entanto neste primeiro momento uma view por boleto.
 
